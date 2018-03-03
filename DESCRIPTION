@@ -1,0 +1,15 @@
+Package: pella
+Title: A Quick and Efficient ADMB-based Pella-Tomlison Biomass Dynamics Model
+Version: 0.0.0.9000
+Authors@R: c(person(given = "Iago", family = "Mosqueira", role = c("aut", "cre"),
+  email = "iago.mosqueira@ec.europa.eu"))
+Description: A quick and efficient ADMB-based Pella-Tomlison Biomass Dynamics model.
+Depends:
+  R (>= 3.4.3),
+  methods,
+  FLCore,
+  ggplotFL
+Additional_repositories: http://flr-project.org/R
+License: EUPL
+Encoding: UTF-8
+LazyData: true

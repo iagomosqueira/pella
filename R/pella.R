@@ -106,7 +106,6 @@ callPella <- function(dir, args="") {
 } # }}}
 
 # readPella {{{
-
 readPella <- function(dir) {
 
   # rep file
@@ -127,9 +126,10 @@ readPella <- function(dir) {
   
   stk <- FLQuant(unlist(c(t1[,'stock'])), units="t", dimnames=list(year=t1[,"year"])) 
   
+  # TODO: ll
+  
   msg <- try(t3 <- t(array(read.table(file.path(dir, "lls.txt"), sep="\n"))))
 
-  # TODO: ll
 # if (!(any(is(msg) == "try-error"))) {
 #   
 #   t3 <- t3[,length(t3)]

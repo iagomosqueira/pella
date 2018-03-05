@@ -1,6 +1,6 @@
 Package: pella
 Title: A Quick and Efficient ADMB-based Pella-Tomlison Biomass Dynamics Model
-Version: 0.0.0.9000
+Version: 0.0.0.9001
 Authors@R: c(person(given = "Iago", family = "Mosqueira", role = c("aut", "cre"),
   email = "iago.mosqueira@ec.europa.eu"))
 Description: A quick and efficient ADMB-based Pella-Tomlison Biomass Dynamics model.
